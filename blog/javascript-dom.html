@@ -1,57 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>anthony amerman</title>
-    <meta charset="UTF-8">
-    <link href="../styles/main.css" rel="stylesheet" type="text/css">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width" initial-scale="1" user-scalable="yes" maximum-scale="10">
-  </head>
-  
-  <body class="body">
-    <header class="header">anthony amerman</header>
-    <div class="navbar">
-      <a class="navbutt" href="https://anthony-amerman.github.io/index">home</a>
-      <a class="navbutt" href="https://anthony-amerman.github.io/blog/tech">tech</a>
-      <a class="navbutt" href="https://anthony-amerman.github.io/blog/core">core</a>
-      <a class="navbutt" href="https://anthony-amerman.github.io/blog/contact">contact</a>
-    </div>
-    <div id="jsFundamentals">
-      <h2>JAVASCRIPT FUNDAMENTALS: A non-technical explanation</h2>
-      <p>JavaScript is kind of like the fingers of a website. It file of <em>action</em> that holds together HTML and CSS, and it can also build things on top of them or insert or change things inside them. It takes useful data -- user profile information or store stock, for example -- and stores them as "objects" in a way that is convenient to use. JavaScript also deals with keeping track of actions performed on the page -- clicks, keystrokes, other events -- and deciding what to do when they occur, whether that is performing an action itself, giving an output, or just sitting back and listening. it performs its tasks using what are called "functions". 
-      <p>Control flow is the order in which JavaScript code is run. It basically runs top to bottom unless it is told otherwise. One thing that can change the flow is a loop. we perform loops in our everyday lives. imagine you don't care about collosal wastes of land and water and decide to go golfing. the way you keep score on a score card is much like a loop. you start at the first hole, wack the ball to the end, and record your score. then you go to the second hole and do the same thing. you cycle through these actions for every hole until there are no more holes left, at which point you exit this loop. here is an example of a loop in JavaScript: 
-        <figure>
-          <img src="https://anthony-amerman.github.io\images\JS-fund\loop.png" alt="example of a loop">
-          <figcaption>here is a basic loop that counts to 10 in JS</figcaption>  
-        </figure>
-        When a loop is enountered, it is: 
-        <ol>
-          <li>entered and given an initial statement, here, let i = 0, starts a counter at 0</li>
-          <li>given a pre-defined condition. here, if i < 10, the parts inside curly brackets "{}" re performed</li>
-          <li>here, console.log(i), prints out which iteration of the loop we are performing</li>
-          <li>at the end of one cycle the cycle complete instruction is performed. here, i++, adds 1 to the counter [i]</li>
-        </ol>
-        steps 2-4 are repeated until the condition is not met -- here, until [i] is no longer less than 10 -- at which point the loop is broken and continues down through the rest of the code.
-      </p>
-      <p>The Document Model Object or, DOM, is an interface a web browser or other program uses to structure all of the information in a web document, arranging it into a heirarchical tree, that can be manipulated to change its content and the way in which that content is presented. One way to interact with the DOM is to use developer tools built into most browsrs. press f12 or ctrl + shift + i to open them on this page. we are now "looking under the hood" of a web page. using this we can look at the code of a website or test new things out.</p>
-      <p>Arrays and objects are both variables that act as containers that JS can use to store and recall data. An array is a list of related values, each assigned an array position starting at [0]:
-        <figure>
-          <img src="https://anthony-amerman.github.io\images\JS-fund\array.png" alt="example of an array">
-          <figcaption>an array</figcaption>  
-        </figure>
-        here the value "boogers" is printed to the console from position [1] in the array.<br>
-        An object is composed of numerous keys that can be assigned a value. you might use this to store data for different user profiles on a web forum, for example.
-        <figure>
-          <img src="https://anthony-amerman.github.io\images\JS-fund\object.png" alt="example of a an object">
-          <figcaption>an object</figcaption>  
-        </figure>
-        here, the key age is being called from the object tony. the value 33 will be printed to the console.
-
-      </p>
-      <p>
-        Functions are the main "doers" in JavaScript. They are first defined (built) and then can be called (put into action) later on. they can be used to pull data from an array or object, send it somehwere else, take an input and add or subtract things to it and give you an output, send a message when a button is clicked. pretty much any interactivity on a webpage is built form functions in Javascript. they allow us to manipulate and change the document based on events and inputs.
-      </p>
-
-
-      </p>
-    </div>
+<head>
+  <title>anthony amerman</title>
+  <meta charset="UTF-8">
+  <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width" initial-scale="1" user-scalable="yes" maximum-scale="10">
+</head>  
+<body class="body">
+  <header class="header">anthony amerman</header>
+  <div class="navbar">
+    <a class="navbutt" href="https://anthony-amerman.github.io/index">home</a>
+    <a class="navbutt" href="https://anthony-amerman.github.io/blog/tech">tech</a>
+    <a class="navbutt" href="https://anthony-amerman.github.io/blog/core">core</a>
+    <a class="navbutt" href="https://anthony-amerman.github.io/blog/contact">contact</a>
+  </div>
+  <div id="jsFundamentals">
+    <h2>JAVASCRIPT FUNDAMENTALS: A non-technical explanation</h2>
+    <p>
+      JavaScript is kind of like the fingers of a website. It file of <em>action</em> that holds together HTML and CSS, and it can also build things on top of them or insert or change things inside them. It takes useful data -- user profile information or store stock, for example -- and stores them as "objects" in a way that is convenient to use. JavaScript also deals with keeping track of actions performed on the page -- clicks, keystrokes, other events -- and deciding what to do when they occur, whether that is performing an action itself, giving an output, or just sitting back and listening. it performs its tasks using what are called "functions".
+    </p> 
+    <p>
+      Control flow is the order in which JavaScript code is run. It basically runs top to bottom unless it is told otherwise. One thing that can change the flow is a loop. we perform loops in our everyday lives. imagine you don't care about collosal wastes of land and water and decide to go golfing. the way you keep score on a score card is much like a loop. you start at the first hole, wack the ball to the end, and record your score. then you go to the second hole and do the same thing. you cycle through these actions for every hole until there are no more holes left, at which point you exit this loop. here is an example of a loop in JavaScript: 
+      <figure>
+        <img src="https://anthony-amerman.github.io\images\JS-fund\loop.png" alt="example of a loop">
+        <figcaption>here is a basic loop that counts to 10 in JS</figcaption>  
+      </figure>
+      When a loop is enountered, it is: 
+      <ol>
+        <li>entered and given an initial statement, here, let i = 0, starts a counter at 0</li>
+        <li>given a pre-defined condition. here, if i < 10, the parts inside curly brackets "{}" re performed</li>
+        <li>here, console.log(i), prints out which iteration of the loop we are performing</li>
+        <li>at the end of one cycle the cycle complete instruction is performed. here, i++, adds 1 to the counter [i]</li>
+      </ol>
+      steps 2-4 are repeated until the condition is not met -- here, until [i] is no longer less than 10 -- at which point the loop is broken and continues down through the rest of the code.
+    </p>
+    <p>
+      The Document Model Object or, DOM, is an interface a web browser or other program uses to structure all of the information in a web document, arranging it into a heirarchical tree, that can be manipulated to change its content and the way in which that content is presented. One way to interact with the DOM is to use developer tools built into most browsrs. press f12 or ctrl + shift + i to open them on this page. we are now "looking under the hood" of a web page. using this we can look at the code of a website or test new things out.
+    </p>
+    <p>
+      Arrays and objects are both variables that act as containers that JS can use to store and recall data. An array is a list of related values, each assigned an array position starting at [0]:
+      <figure>
+        <img src="https://anthony-amerman.github.io\images\JS-fund\array.png" alt="example of an array">
+        <figcaption>an array</figcaption>  
+      </figure>
+      here the value "boogers" is printed to the console from position [1] in the array.<br>
+      An object is composed of numerous keys that can be assigned a value. you might use this to store data for different user profiles on a web forum, for example.
+      <figure>
+        <img src="https://anthony-amerman.github.io\images\JS-fund\object.png" alt="example of a an object">
+        <figcaption>an object</figcaption>  
+      </figure>
+      here, the key age is being called from the object tony. the value 33 will be printed to the console.
+    </p>
+    <p>
+      Functions are the main "doers" in JavaScript. They are first defined (built) and then can be called (put into action) later on. they can be used to pull data from an array or object, send it somehwere else, take an input and add or subtract things to it and give you an output, send a message when a button is clicked. pretty much any interactivity on a webpage is built form functions in Javascript. they allow us to manipulate and change the document based on events and inputs.
+    </p>
+  </div>
+</body>
+</html>
